@@ -1,0 +1,8 @@
+.video-wrap{
+    position: relative;
+}
+
+p{  
+    font-size: 400%;
+    z-index: 1;
+}
