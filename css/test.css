@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    color: #fff;
+    padding: 40px;
+}
+.box1{
+    background: #F43959;
+}
+.box2{
+    background: #4CA4CF;
+}
+.box3{
+    background: #e5cf54;
+}
+.box4{
+    background: #45CB99;
+}

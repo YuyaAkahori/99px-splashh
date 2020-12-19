@@ -1,5 +1,6 @@
 html,body{
     height: 100vh;
+    width: 100vw;
 }
 
 html{
@@ -10,86 +11,31 @@ body{
     color: #dfdfdf;
 }
 
+.fitImg{
+    position: absolute;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-.top-word-wrap{
-    position: relative;
-    top: 20rem;
-    max-width: 50rem;
-    z-index: 30;
-    margin: 0 auto;
+.ctc{
+    color: #fff;
+    height: 100vh;
+    padding: 40px;
 }
-
-.title{
-    font-family: 'Exo', sans-serif;
-    font-size: 1500%;
-    text-align: center;
-    transform: translateY(-50%)
-    
+.box1{
+    background: #DEDEDE;
+    z-index: 1;
 }
-
-.topdesc{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 900;
-    font-size: 300%;
-    text-align: center;
-    transform: translateY(-50%)
+.box2{
+    background: #4CA4CF;
+    z-index: 2;
 }
-
-.text-grad{
-    background-image: linear-gradient(to right, red, green, yellow, );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-
-    background-size: 300%;
-    background-position: -200%;
-
-    animation: animatedText 5s infinite alternate-reverse;
-    z-index: 90;
-
+.box3{
+    background: #e5cf54;
 }
-/* 後でや
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
- */
-
-@keyframes animatedText{
-    from{
-        background-position: 0%;
-    }
-    to{
-        background-position: 100%;
-    }
+.box4{
+    background: #45CB99;
 }
-
-
-.video-container {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
-  video {
-    position: absolute;
-  }
-  @media (aspect-ratio: 16/9), (min-aspect-ratio: 16/9) {
-    video {
-      width: 100%;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-  @media (max-aspect-ratio: 16/9) {
-    video {
-      height: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }

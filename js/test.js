@@ -1,0 +1,1 @@
+$.scrollify({section:".box"});
